@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" src="js/index.js" defer></script>
 </head>
+
 <body>
     <header id="header" class="header">
         <h1><a href="" class="h1">MNTN</a></h1>
@@ -50,11 +53,14 @@
         <section class="index-contents">
             <div class="block" id="block1">
                 <div data-aos="fade-right" data-aos-delay="300">
-                    <h2 class="block__title">What level of  hiker are you?</h2>
+                    <h2 class="block__title">What level of hiker are you?</h2>
                     <span class="block__count">01</span>
                     <span class="subtilte">GEt Started</span>
                     <p class="block__content">
-                        Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you - novice, moderate, advanced moderate, expert, or expert backpacker? 
+                        Determining what level of hiker you are can be an important tool when planning future hikes.
+                        This hiking level guide will help you plan hikes according to different hike ratings set by
+                        various websites like All Trails and Modern Hiker. What type of hiker are you - novice,
+                        moderate, advanced moderate, expert, or expert backpacker?
                     </p>
                     <a href="" class="block__more">read more</a>
                 </div>
@@ -66,8 +72,10 @@
                     <span class="block__count">02</span>
                     <span class="subtilte">Hiking Essentials</span>
                     <p class="block__content">
-                        The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
-    Let's start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.
+                        The nice thing about beginning hiking is that you don’t really need any special gear, you can
+                        probably get away with things you already have.
+                        Let's start with clothing. A typical mistake hiking beginners make is wearing jeans and regular
+                        clothes, which will get heavy and chafe wif they get sweaty or wet.
                     </p>
                     <a href="" class="block__more">read more</a>
                 </div>
@@ -79,7 +87,10 @@
                     <span class="block__count">03</span>
                     <span class="subtilte">where you go is the key</span>
                     <p class="block__content">
-                        To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..
+                        To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag.
+                        Read over the guide, study the map, and have a good idea of what to expect. I like to know what
+                        my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I
+                        make a right turn at the junction..
                     </p>
                     <a href="" class="block__more">read more</a>
                 </div>
@@ -98,7 +109,7 @@
         <div class="footer__right" data-aos="fade-up" data-aos-delay="500">
             <div class="footer__nav">
                 <h2>More on The Blog</h2>
-                <nav> 
+                <nav>
                     <ul>
                         <li><a href="">About MNTN</a></li>
                         <li><a href="">Contributors & Writers</a></li>
@@ -110,7 +121,7 @@
             </div>
             <div class="footer__nav">
                 <h2>More on MNTN</h2>
-                <nav> 
+                <nav>
                     <ul>
                         <li><a href="">The Team</a></li>
                         <li><a href="">Jobs</a></li>
@@ -124,12 +135,13 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        $('.quick a').on('click', function(){
+        $('.quick a').on('click', function () {
             $(this).parents('.quick').find('a').removeClass('active');
             $(this).addClass('active');
         });
         AOS.init();
     </script>
-    
+
 </body>
+
 </html>
